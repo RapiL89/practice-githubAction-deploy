@@ -10,5 +10,5 @@ public class PracticeGithubActionDeployApplication {
 		SpringApplication.run(PracticeGithubActionDeployApplication.class, args);
 	}
 
-	//dd
+	//ddddddd
 }
