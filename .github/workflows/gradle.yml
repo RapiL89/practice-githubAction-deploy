@@ -9,7 +9,7 @@ permissions:
   
   
 env:
-  S3_BUCKET_NAME: githubaction-deploy-bucket
+  S3_BUCKET_NAME: be-50-rapil89
 
 jobs:
   build:
