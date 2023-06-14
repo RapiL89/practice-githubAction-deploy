@@ -13,7 +13,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      working-directory: ${{ github.workspace }}/practice-githubAction-deploy
+      working-directory: ${{ github.workspace }}
       
     steps:
       - name: Checkout
@@ -31,6 +31,6 @@ jobs:
         working-directory: ${{env.working-directory}}
         
       - name: Build with Gradle
-        run: ./gradlew bootJar
+        run: ./practice-githubAction-deploy/gradlew bootJar
         shell: bash
-        working-directory: ${{env.working-directory}}
+        working-directory: ${{env.working-directory}}/practice-githubAction-deploy
