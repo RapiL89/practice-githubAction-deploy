@@ -13,7 +13,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      working-directory: ./practice-githubAction-deploy
+      working-directory: ${{ github.workspace }}/practice-githubAction-deploy
       
     steps:
       - name: Checkout
