@@ -13,7 +13,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      S3_BUCKET_NAME: build-jar-ticat-deploy
+      S3_BUCKET_NAME: ticat
       PROJECT_NAME: Ticat-deploy
 #       working-directory: ./practice-githubAction-deploy
       
