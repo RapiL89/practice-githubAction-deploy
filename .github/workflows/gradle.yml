@@ -13,7 +13,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      working-directory: ${{ github.workspace }}
+      working-directory: ${{ github.workspace }}/practice-githubAction-deploy
       
     steps:
       - name: Checkout
@@ -26,11 +26,11 @@ jobs:
           distribution: "temurin"
           
       - name: Grant execute permission for gradlew
-        run: chmod +x ./practice-githubAction-deploy/gradlew
+        run: chmod +x ./gradlew
         shell: bash
         working-directory: ${{env.working-directory}}
         
       - name: Build with Gradle
-        run: ./practice-githubAction-deploy/gradlew bootJar
+        run: ./gradlew bootJar
         shell: bash
-        working-directory: ${{env.working-directory}}/practice-githubAction-deploy
+        working-directory: ${{env.working-directory}}
