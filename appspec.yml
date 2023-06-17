@@ -2,14 +2,14 @@ version: 0.0
 os: linux
 files:
   - source:  /
-    destination: /home/ubuntu/action
+    destination: /home/ssm-user/ticat
     overwrite: yes
 
 permissions:
   - object: /
     pattern: "**"
-    owner: ubuntu
-    group: ubuntu
+    owner: ticat
+    group: ticat
 
 hooks:
   ApplicationStart:
