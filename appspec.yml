@@ -8,7 +8,7 @@ files:
 permissions:
   - object: /
     pattern: "**"
-    owner: awsbeginner-ec2
+    owner: ssm-user
     group: ticat
 
 hooks:
