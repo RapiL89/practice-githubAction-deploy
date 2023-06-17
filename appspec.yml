@@ -8,7 +8,7 @@ files:
 permissions:
   - object: /
     pattern: "**"
-    owner: codedeploy
+    owner: awsbeginner-ec2
     group: ticat
 
 hooks:
