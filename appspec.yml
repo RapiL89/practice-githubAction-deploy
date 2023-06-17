@@ -9,7 +9,7 @@ permissions:
   - object: /
     pattern: "**"
     owner: ssm-user
-    group: codedeploy
+    group: awsbeginner-ec2
 
 hooks:
   ApplicationStart:
