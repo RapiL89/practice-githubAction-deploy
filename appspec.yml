@@ -8,7 +8,7 @@ files:
 permissions:
   - object: /
     pattern: "**"
-    owner: ticat
+    owner: codedeploy
     group: ticat
 
 hooks:
