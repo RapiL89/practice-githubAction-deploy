@@ -9,7 +9,7 @@ permissions:
   - object: /
     pattern: "**"
     owner: ssm-user
-    group: awsbeginner-ec2
+    group: ticat
 
 hooks:
   ApplicationStart:
