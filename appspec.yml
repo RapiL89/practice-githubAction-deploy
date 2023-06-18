@@ -9,7 +9,7 @@ permissions:
   - object: /
     pattern: "**"
     owner: ssm-user
-    group: ticat
+    group: ssm-user
 
 hooks:
   ApplicationStart:
