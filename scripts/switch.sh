@@ -1,4 +1,4 @@
-#!/bin//bash
+#!/bin/bash
 
 # Crawl current connected port of WAS
 CURRENT_PORT=$(cat /home/ssm-user/service_url.inc | grep -Po '[0-9]+' | tail -1)
