@@ -25,4 +25,4 @@ hooks:
       runas: ssm-user
     - location: scripts/switch.sh
       timeout: 180
-      runas: ssm-uesr
+      runas: ssm-user
