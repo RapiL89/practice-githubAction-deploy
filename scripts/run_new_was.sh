@@ -3,7 +3,7 @@
 CURRENT_PORT=$(cat /home/ssm-user/service_url.inc | grep -Po '[0-9]+' | tail -1)
 TARGET_PORT=0
 
-echo "> Current port of runnig WAS is ${CURRENT_PORT}."
+echo "> Current port of running WAS is ${CURRENT_PORT}."
 
 if [ ${CURRENT_PORT} -eq 8081 ]; then
   TARGET_PORT=8082
