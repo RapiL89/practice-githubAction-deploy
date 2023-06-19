@@ -16,4 +16,13 @@ hooks:
     - location: scripts/deploy.sh
     # - location: deploy.sh
       timeout: 60
-      runas: ubuntu
+      runas: ssm-user
+    - location: scripts/run_new_was.sh
+      timeout: 180
+      runas: ssm-user
+    - location: scripts/health_check.sh
+      timeout: 180
+      runas: ssm-user
+    - location: scripts/switch.sh
+      timeout: 180
+      runas: ssm-uesr
